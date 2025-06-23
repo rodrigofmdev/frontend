@@ -1,0 +1,43 @@
+/* Reset simples para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte base e cores neutras para leitura confortável */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* Espaçamento vertical entre seções */
+section {
+  padding: 60px 0;
+}
+
+/* Botões com Bootstrap já são acessíveis, mas personalização */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Imagens responsivas e arredondadas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Seção hero centralizada */
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
